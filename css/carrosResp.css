@@ -1,0 +1,32 @@
+@media screen and (max-width: 800px){
+   
+    
+    .header{
+        position: relative;
+        justify-content: start;
+    }
+    .search{
+        display: none;
+    }
+    #search-btn{
+        display: none;
+      }
+
+      .bi{
+        display: none;
+      }
+      #carForm {
+        border: #1579d6 2px solid;
+        margin: 100px auto;
+        width: 100%;
+        padding: 20px;
+        border-radius: 5px;
+        border-radius: 30px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px auto;
+    }
+}

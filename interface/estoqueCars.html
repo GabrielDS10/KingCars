@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/carros.css"><link rel="stylesheet" href="../css/estoqueResp.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <title>Carros</title>
+</head>
+<body>
+      <!-- HEADER -->
+  <header class="header">
+    <a href="./adminTela.html" class="logo">King<span>Cars.</span></a>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <button class="btn btn-transparent dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                Gerenciar
+              </button>
+              <ul class="dropdown-menu dropdown-menu-transparent">
+                <li><a class="dropdown-item" href="gerenciarCarros.html">Carros</a></li>
+                <li><a class="dropdown-item" href="usuarios.html">Clientes</a></li>
+                <li><a class="dropdown-item" href="historico.html">Vendas</a></li>
+              
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <div class="social-media">
+      <a href="#" target="_blank" style="--i:1"><i class="bi bi-twitter-x"></i></a>
+      <a href="#" target="_blank" style="--i:2"><i class="bi bi-facebook"></i></a>
+      <a href="#" target="_blank" style="--i:3"><i class="bi bi-instagram"></i></a>
+      <a href="#" target="_blank" style="--i:4"><i class="bi bi-whatsapp"></i></a>
+    </div>
+  </header>
+     <!-- SESSAO 1 -->
+
+     <section class="home" >
+      <div class="home-content">
+        <h1>Experiência em negociação de automóveis.</h1>
+        <h3>Redefinida!</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi deleniti assumenda aliquam quas sit quam hic, tempore error officia? Maxime.
+        </p>
+        <a href="#all-cars" class="btn" id="btn">Explore Carros</a>
+      </div>
+
+      <div class="home-img">
+        <div class="rhombus">
+          <!-- Carrosel -->
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../img/skyline r34.png" class="d-block w-100" id="r34" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/r8.png" class="d-block w-100" id="r8" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../img/supra mk4.png" class="d-block w-100" id="supra" alt="...">
+              </div>
+            </div>
+          </div>
+          <!-- Carrosel -->
+
+        </div>
+      </div>
+
+      <div class="rhombus2"></div>
+     </section>
+
+     <section class="cars" id="all-cars">
+
+      <div class="heading">
+        <span>All cars</span>
+        <h2>We have all types cars</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, nam?</p>
+      </div>
+
+      <!-- cars container -->
+      <div class="container text-center">
+        <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3 cars-container">
+
+            <div class="box">
+              <a href="../interface/historico.html">
+              <img src="../img/r8.jpg" alt="">
+                  <h2>Audi</h2></a>
+            </div>
+          <div class="col">
+            <div class="box">
+            <a href="../interface/historico.html">
+              <img src="../img/lancer.jpg" alt="Car 1"><h2>Mitsubishi</h2>
+            </a>
+            </div>
+          </div>
+          <div class="col">
+            <a href="../interface/historico.html">
+            <div class="box"><img src="../img/bmw.jpg" alt="Car 2"><h2>BMW</h2></div>
+            </a>
+          </div>
+          <div class="col">
+            <a href="../interface/historico.html">
+            <div class="box"><img src="../img/sklr34.jpg" alt="Car 3"><h2>Nissan</h2></div></a>
+          </div>
+          <div class="col">
+            <a href="../interface/historico.html">
+            <div class="box"><img src="../img/supra.jpg" alt="Car 4"><h2>Toyota</h2></div>
+            </a>
+          </div>
+          <div class="col">
+            <a href="../interface/historico.html">
+            <div class="box"><img src="../img/royce.jpg" alt="Car 5"><h2>Maceratti</h2></div></a>
+          </div>
+          <div class="col">
+             <a href="../interface/historico.html">
+            <div class="box"><img src="../img/ferrari.jpg" alt="Car 6"><h2>Ferrari</h2></div></a>
+          </div>
+          <div class="col">
+             <a href="../interface/historico.html">
+            <div class="box"><img src="../img/koenigsegg.jpg" alt="Car 7"><h2>Koenigsegg</h2></div></a>
+          </div>
+          <div class="col">
+             <a href="../interface/historico.html">
+            <div class="box"><img src="../img/lambo.jpg" alt="Car 8"><h2>Lamborguini</h2></div></a>
+          </div>
+          <div class="col">
+               <a href="../interface/historico.html">
+            <div class="box"><img src="../img/golf.jpg" alt="Car 8"><h2>Volkswagen</h2></div></a>
+          </div>
+        </div>
+      </div>
+      
+     </section>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script
+</html>

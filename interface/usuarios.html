@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Concessionária - Gestão de Clientes</title>
+  <link rel="stylesheet" href="../css/clientesResp.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+   background: #eaeaea;
+   
+}
+
+html::-webkit-scrollbar {
+    width: 10px;
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    border-radius: 5rem;
+    background: #222;
+}
+
+.header{
+   /*  border: 2px solid red; */
+   position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 3%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    z-index: 100;
+}   
+
+.logo{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.logo span{
+    color: #1743e3;
+}
+
+.procurar{
+  border: none;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+  outline: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#search{
+  margin-left: 5px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid #1743e3;
+}
+
+#search:hover{
+  border-color: red;
+}
+
+.bi{
+  color: #1743e3;
+}
+
+#search .bi:hover{
+    color: red;
+}
+.container {
+      padding-top: 100px;
+      max-width: 600px;
+      margin: 0 auto;
+}
+
+.tableCars{
+    width: 750px;
+    margin: 0 auto;
+}
+
+.tableCars .list-group{
+    gap: 2rem;
+}
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <a href="./estoqueCars.html" class="logo">King<span>Cars.</span></a>
+    <div>
+      <input class="procurar" id="procurar" type="search" placeholder="Procurar"><button id="search" type="button"><i class="bi bi-search"></i></button>
+    </div>
+  </header>
+  <h1 class="mb-4" style="text-align: center; margin-top: 30px;">Gestão de Clientes</h1>
+
+  <div class="container">
+    <h1 class="mb-4">Formulario de Clientes</h1>
+
+    <form id="clienteForm">
+      <div class="mb-3">
+        <label for="nome" class="form-label">Nome:</label>
+        <input type="text" class="form-control" id="nome" >
+      </div>
+      <div class="mb-3">
+        <label for="endereco" class="form-label">Endereço:</label>
+        <input type="text" class="form-control" id="endereco" >
+      </div>
+      <div class="mb-3">
+        <label for="telefone" class="form-label">Telefone:</label>
+        <input type="tel" class="form-control" id="telefone" >
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email:</label>
+        <input type="email" class="form-control" id="email" >
+      </div>
+      <button type="submit" class="btn btn-primary" id="cadastrarBtn">Cadastrar</button>
+    </form>
+
+    <h2 class="mt-5">Clientes Cadastrados</h2>
+    <ul id="listaClientes" class="list-group"></ul>
+  </div>
+  <script src="../js/users.js"></script>
+  <script>
+    //criar funcao para o campo de pesquisa
+  </script>
+</body>
+</html>

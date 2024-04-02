@@ -1,0 +1,15 @@
+@media screen and (max-width: 890px) {
+    .header{
+        position: relative !important;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .procurar{
+        display: none !important;
+    }
+
+    #search{
+        display: none;
+    }
+}

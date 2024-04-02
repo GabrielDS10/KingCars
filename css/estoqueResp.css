@@ -1,0 +1,133 @@
+@media screen and (max-width: 1200px) {
+    .home-content {
+        width: 300px;
+    }
+
+    .home-content h1, .home-content h3, .home-content p {
+        display: none;
+    }
+
+    .carousel-inner {
+        margin-left: 1px;
+        width: 80%;
+    }
+
+    .carousel-item {
+        width: 50%;
+        margin-left: 1px;
+    }
+
+    #btn {
+        display: inline-block;
+        padding: 10px 28px;
+        background: #1743e3;
+        border: 2px solid #1743e3;
+        border-radius: 6px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+        font-size: 16px;
+        color: #eaeaea;
+        letter-spacing: 1px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: .5s;
+        opacity: 0;
+        animation: slideRigth 1s ease forwards;
+        animation-delay: 1s;
+        margin-top: 500px;
+    }
+    .carousel{
+        display: block;
+        margin-top: -10px;
+        margin-left: -200px;
+        width: 600px;
+        height: 120%;
+        position: relative;
+        /* border: 2px solid red; */
+        transform: rotate(-45deg);
+        user-select: none;
+    }
+    .home-img {
+        position: relative;
+        right: -8%;
+        width: 340px;
+        height: 340px;
+        transform: rotate(45deg);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container-fluid .navbar-toggler {
+        background: black;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    body {
+        background-color: aliceblue !important;
+    }
+
+    .header {
+        margin-left: -10px;
+        width: 100%;
+        justify-content: space-between;
+
+    }
+
+    .header .social-media {
+        display: none;
+    }
+
+    .header .logo {
+        margin-left: 35px;
+        font-size: 1.2rem;
+        justify-content: center;
+    }
+    .header .logo span{
+        color: aliceblue;
+    }
+
+    .navbar-nav .nav-item .btn {
+        color: aliceblue;
+    }
+
+    .home-img,
+    .home .rhombus2 {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 487px){
+    .header{
+        justify-content: start;
+    }
+    .header .logo span{
+        color: #1743e3;
+    }
+
+    .navbar-nav .nav-item .btn {
+        color: black;
+    }
+
+    .home-img,.home .rhombus2{
+        display: none;
+    }
+    .home-content h1 {
+        display: block;
+        font-size: 1.5rem;
+        margin-top: -100px;
+        margin-bottom: 50px;
+        margin-left: 100px;
+    }
+
+    .home-content h3{
+        display: block;
+        margin-top: -40px;
+        margin-left: 100px;
+    }
+    #btn{
+        margin-top: -10px;
+        margin-left: 100px;
+    }
+
+}
