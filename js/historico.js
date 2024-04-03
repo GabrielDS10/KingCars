@@ -26,13 +26,13 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     function calculateTotalSale(price) {
-        // Suponha que haja um adicional de financiamento de 10% do preço do carro
+        // adicional de financiamento de 10% do preço do carro
         const financingFee = price * 0.1;
 
-        // Suponha que há um pacote de extras que custa R$ 500,00
+     
         const extrasCost = 500;
 
-        // Suponha que haja uma taxa de documentação de R$ 200,00
+        
         const documentationFee = 200;
 
         // Somando todos os custos adicionais ao preço do carro
