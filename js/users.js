@@ -19,26 +19,6 @@ function adicionarCliente(nome, endereco, telefone, email) {
     listaClientes.appendChild(li);
 }
 
-function adicionarCliente(nome, endereco, telefone, email) {
-    const listaClientes = document.getElementById('listaClientes');
-    const li = document.createElement('li');
-    li.className = 'list-group-item d-flex justify-content-between align-items-center';
-    li.innerHTML = `
-      <div>
-        <strong>${nome}</strong> <br>
-        <small>${endereco}</small> <br>
-        <small>${telefone}</small> <br>
-        <small>${email}</small>
-      </div>
-      <div>
-        <button type="button" class="btn btn-sm btn-primary editarBtn">Editar</button>
-        <button type="button" class="btn btn-sm btn-danger excluirBtn">Excluir</button>
-      </div>
-    `;
-    listaClientes.appendChild(li);
-  }
-
-
   function preencherFormulario(nome, endereco, telefone, email, index) {
     document.getElementById('nome').value = nome;
     document.getElementById('endereco').value = endereco;
