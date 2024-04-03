@@ -19,10 +19,6 @@ function adicionarCliente(nome, endereco, telefone, email) {
     listaClientes.appendChild(li);
 }
 
-// Exemplo de uso da função adicionarCliente
-adicionarCliente("João Silva", "Rua A, 123", "123456789", "joao@example.com");
-
-
 function adicionarCliente(nome, endereco, telefone, email) {
     const listaClientes = document.getElementById('listaClientes');
     const li = document.createElement('li');
